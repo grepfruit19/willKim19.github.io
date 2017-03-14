@@ -1,0 +1,15 @@
+/* Global Settings */
+
+body {
+  margin: 0;
+  padding: 10%;
+  font-family: sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
