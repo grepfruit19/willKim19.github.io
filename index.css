@@ -3,34 +3,30 @@
 body {
   margin: 0;
   padding: 10%;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  width: 60%;
 }
 
 .col-left {
-  display: block;
-  float: left;
-  position: relative;
+  display: inline-block;
 
   padding-top: 3%;
-  left: -5%;
-  height: 100vh;
-
   text-align: center;
 }
 
 .col-right{
-  display: block;
-  float: left;
-  left: 5%;
-  position: relative;
+  display: inline-block;
   padding-top: 3%;
-  height: 100vh;
 }
 
 #header {
   height: 80px;
   line-height: 80px;
   vertical-align: middle;
+  margin-bottom: 30px;
 }
 
 #header img {
