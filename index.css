@@ -6,9 +6,15 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-main {
-  width: 70%;
+ul {
+  list-style-type: none;
 }
+
+a {
+  color: #E65100;
+}
+
+/* Flexbox */
 
 .flex-container{
   display: flex;
@@ -26,6 +32,7 @@ main {
   flex-grow: 1;
   flex-shrink: 1;
   text-align: center;
+  margin-right: 15px;
 }
 
 .col-right{
@@ -33,6 +40,8 @@ main {
   flex-grow: 1;
   flex-shrink: 1;
 }
+
+/* Column left styling */
 
 #header {
   height: 80px;
@@ -64,8 +73,4 @@ main {
   width: 250px;
   margin: 30px auto;
   border-radius: 50%;
-}
-
-ul {
-  list-style-type: none;
 }
