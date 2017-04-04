@@ -1,10 +1,8 @@
 /* Global Settings */
 
 body {
-  margin: 0;
-  padding: 10%;
+  margin: 5%;
   font-family: 'Source Sans Pro', sans-serif;
-  overflow: hidden;
 }
 
 ul {
@@ -79,8 +77,9 @@ a {
 
 #footer {
   position: fixed;
-  bottom: 0;
-  right: 0;
+  bottom: 3px;
+  right: 3px;
+  text-align: right;
 }
 
 #footer p{
