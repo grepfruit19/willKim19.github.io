@@ -1,0 +1,36 @@
+#container{
+  width: 750px;
+  height: 750px;
+  margin: 25px auto;
+  border-width: thin;
+  border-color: grey;
+  border-style: solid;
+}
+
+.face {
+  position: relative;
+}
+
+#top-eye {
+  height: 75px;
+  width: 75px;
+  left: 24%;
+  top: 30%;
+}
+
+#bottom-eye {
+  height: 75px;
+  width: 75px;
+  left: 24%;
+  top: 50%;
+}
+
+#mouth {
+  height: 500px;
+  width: 65px;
+  left: 60%;
+
+  -ms-transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
